@@ -1,0 +1,79 @@
+﻿@model List<Day7.Models.ProductViewModel>
+
+@{
+    ViewBag.Title = "GetAllItemsInCard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    if(Model != null)
+    {
+        Session["Count"] = ViewBag.product;
+    }
+    int counter = 0;
+}
+
+<h2 style="text-align:center;margin-top:5%;color:#dddddd">Your Card</h2>
+<br /><br />
+<div>
+    <table class="table table-borderless table-hover">
+        <tr>
+            <th>
+                @Html.Label("Name")
+            </th>
+            <th>
+                @Html.Label("QuantityNeeded")
+            </th>
+            <th>
+                @Html.Label("Price")
+            </th>
+        </tr>
+
+        @if (Model != null)
+         {
+            foreach (var item in Model)
+            {
+               
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.QuantityNeeded)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.Price)
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Delete", "DeleteFromCard", new { id = counter } , new { @class = "btn btn-secondary btn-sm" })
+                    </td>
+                </tr>
+                counter++;
+            }
+
+        }
+
+              
+
+            </table>
+    
+</div>
+<p style="display:inline-block">
+
+    @Html.ActionLink("Back to Menu", "Index", "User", null, new { @class = "btn btn-primary btn-sm" })
+    @if (Session["ProductViewModel"] != null)
+    {
+        @Html.ActionLink("confirm", "BeforeConfirmation", "User", new { @class = "btn btn-success btn-sm" })
+    }
+    else
+    {
+        @Html.ActionLink("confirm", "BeforeConfirmation", "User", new { @class = "btn btn-success btn-sm link" })
+    }
+
+</p>
+
+<script>
+    $(document).ready(function () {
+        $(".link").click(function (event) {
+            event.preventDefault();
+        });
+    });
+</script>

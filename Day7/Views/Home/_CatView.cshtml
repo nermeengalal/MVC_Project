@@ -1,0 +1,32 @@
+﻿@model List<Day7.Models.Category>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <table>
+
+        @if (Model != null)
+        {
+
+            foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @Html.ActionLink(item.Name, "Getbycat", new { id = item.ID })
+                    </td>
+
+                </tr>
+            }
+        }
+
+    </table>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+</body>
+</html>

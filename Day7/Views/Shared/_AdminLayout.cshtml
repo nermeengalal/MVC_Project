@@ -1,0 +1,217 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    string user = User.Identity.GetUserName();
+    ViewBag.name = user;
+    string FirstLetter = user.Substring(0, 1).ToUpper();
+    string role = "";
+    if(User.IsInRole("Manager"))
+    {
+        role = "Manager";
+    }
+    if (User.IsInRole("Admin"))
+    {
+        role = "Admin";
+    }
+    if (User.IsInRole("USER"))
+    {
+        role = "";
+    }
+    }
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online Store</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/Content/vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="~/Content/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="~/Content/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="~/Content/vendors/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="~/Content/vendors/chartist/chartist.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <!-- Layout styles -->
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="~/Content/images/favicon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar  nav col-lg-12 col-12 p-0 fixed-top d-flex flex-row" style="background-color:#181824;">
+
+            <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
+                <ul class="navbar-nav navbar-nav-right ml-auto">
+                    @if (!User.IsInRole("User"))
+                    {
+                        <form class="search-form d-none d-md-block" method="get" action="\Admin\SearchForProduct">
+                            <i class="icon-magnifier"></i>
+                            <input type="search" class="form-control" placeholder="Search Here" title="Search here" name="Pname">
+                        </form>
+                    }
+                    else
+                    {
+                        <form class="search-form d-none d-md-block" method="get" action="\User\SearchForProduct">
+                            <i class="icon-magnifier"></i>
+                            <input type="search" class="form-control" placeholder="Search Here" title="Search here" name="Pname">
+                        </form>
+                    }
+
+                    <li class="nav-item  d-none d-sm-flex align-items-center">
+                        <a href="/User/Index"><i class="fas fa-home" style="color:#dddddd;font-size:25px"></i></a>
+                    </li>
+                    <li class="nav-item  d-none d-sm-flex align-items-center">
+                        <a href="/User/ShowMyOrders"><i class="fas fa-shopping-bag" style="color:#dddddd;font-size:25px"></i></a>
+                    </li>
+                    <li class="nav-item  d-none d-sm-flex align-items-center">
+                        <a href="/User/GetAllItemsInCard"><i class="fas fa-cart-arrow-down" style="color:#dddddd;font-size:25px"></i></a>
+                    </li>
+                    <li class="nav-item dropdown language-dropdown d-none d-sm-flex align-items-center">
+                        <a class="nav-link d-flex align-items-center dropdown-toggle" id="LanguageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                            <div class="d-inline-flex mr-3">
+                                <i class="flag-icon flag-icon-us"></i>
+                            </div>
+                            <span class="profile-text font-weight-normal" style="color:white">English</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-left navbar-dropdown py-2" aria-labelledby="LanguageDropdown">
+                            <a class="dropdown-item">
+                                <i class="flag-icon flag-icon-us"></i> English
+                            </a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
+                        <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                            <div class="img-xs rounded-circle ml-2" style="background-color:#dddddd">
+                                <span style="font-weight:bold;margin-left:30%;font-size:20px;">@FirstLetter</span>
+                            </div>
+                            <span class="font-weight-normal" style="color:white;font-size:20px"> @user</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+
+                            <a class="dropdown-item" href="/Profile/GetUser/@System.Web.HttpContext.Current.User.Identity.GetUserName()"><i class="dropdown-item-icon icon-user text-primary"></i> My Profile <span class="badge badge-pill badge-danger">1</span></a>
+                            <a class="dropdown-item" href="/Login/Signout"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                    <span class="icon-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item nav-profile">
+                        <a href="#" class="nav-link">
+                            <div class="profile-image">
+                                <div class="img-xs rounded-circle ml-2" style="background-color:#dddddd">
+                                    <span style="font-weight:bold;margin-left:30%;color:black;font-size:20px;">@FirstLetter</span>
+                                </div>
+
+                                <div class="dot-indicator bg-success"></div>
+                            </div>
+                            <div class="text-wrapper">
+                                <p class="profile-name"> @user</p>
+                              
+                                <p class="designation">@role</p>
+                                
+                                </div>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-category">
+                        <span class="nav-link">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                if (User.IsInRole("Manager"))
+                                {
+
+                                    <label>Employees</label>
+                                    <a href="/Manager/Index" style="margin-left:30%" class="nav-link">
+                                        <i class="fas fa-search" style="font-size:22px"></i>
+                                    </a>
+
+                                }
+                            }
+                        </span>
+                        <span class="nav-link">
+                            <label>Categories</label>
+                            @if (!User.IsInRole("User"))
+                            {
+                                <a href="/Admin/AddCat" class="nav-link" aria-labelledby="UserDropdown1" style="margin-left:22%">
+                                    <i class="fas fa-plus" style="font-size:30px"></i>
+                                </a>
+                            }
+
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        @if (!User.IsInRole("User"))
+                        {
+                            Html.RenderAction("ShowMenu", "Admin");
+                        }
+                        else if (User.IsInRole("User"))
+                        {
+                            {Html.RenderAction("ShowMenu", "User");}
+                        }
+                        else if (!User.Identity.IsAuthenticated)
+                        {
+                            { Html.RenderAction("ShowMenu", "Home"); }
+                        }
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+
+                <div>
+                    @RenderBody()
+                    @RenderSection("scripts", required: false)
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                @*<footer class="footer">
+                        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2017 <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap Dash</a>. All rights reserved.</span>
+                            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="icon-heart text-danger"></i></span>
+                        </div>
+                    </footer>*@
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+            <!-- page-body-wrapper ends -->
+        </div>
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/Content/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="~/Content/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/Content/vendors/moment/moment.min.js"></script>
+    <script src="~/Content/vendors/daterangepicker/daterangepicker.js"></script>
+    <script src="~/Content/vendors/chartist/chartist.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+
+    <script src="~/Content/js/off-canvas.js"></script>
+
+    <script src="~/Content/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="~/Content/js/dashboard.js"></script>
+
+
+</body>
+</html>

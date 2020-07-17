@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <span class="nav-link">
+        @if (User.Identity.IsAuthenticated)
+        {
+            if (User.IsInRole("Manager"))
+            {
+
+                <label>Employees</label>
+                <a href="/Admin/AddCat" style="margin-left:30%"class="nav-link">
+                    <i class="fas fa-search" style="font-size:30px"></i>
+                </a>
+                //Html.ActionLink("EmpList","Index","Manager");
+              
+
+}
+}
+    </span>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

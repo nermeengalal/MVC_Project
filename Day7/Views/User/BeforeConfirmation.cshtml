@@ -1,0 +1,53 @@
+﻿@model Day7.Models.Order
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "BeforeConfirmation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="text-align:center;margin-top:5%;color:cadetblue;">Confirm your Order</h2>
+
+<div>
+    <table class="table table-borderless table-hover">
+        <tr>
+            <th>
+                @Html.DisplayName("UserName")
+            </th>
+            <td>
+                <label>@System.Web.HttpContext.Current.User.Identity.GetUserName()</label>
+            </td>
+
+
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            <td>
+                <label>@ViewBag.totalprice</label>
+            </td>
+        </tr>
+    </table>
+    @using (Html.BeginForm("ConfirmOrder", "User", new { Model.Payment }))
+    {
+        <table class="table table-borderless table-hover">
+            <th>
+                @Html.DisplayNameFor(model => model.Payment)
+            </th>
+            <td>
+                @Html.EnumDropDownListFor(model => model.Payment)
+                @Html.ValidationMessageFor(model => model.Payment)
+
+            </td>
+        </table>
+        <input type="submit" value="Final Confirm" class="btn btn-primary btn-sm " style="text-align:center" />
+        }
+
+
+    </div>
+<p>
+    
+    @Html.ActionLink("Back to Menu", "Index",null ,new { @class="btn btn-secondary btn-sm "})
+</p>
+
+

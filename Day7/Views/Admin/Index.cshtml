@@ -1,0 +1,90 @@
+﻿@model PagedList.IPagedList<Day7.Models.Product>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2 style="text-align:center;margin-top:5%;color:#dddddd">Product List</h2>
+<p style="text-align:center">
+    @Html.ActionLink("Create New", "Create",null,new { @class="btn btn-primary btn-sm"})
+</p>
+<table class="table table-borderless table-active">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            UploadDate
+        </th>
+        <th>
+            TotalQuantity
+        </th>
+        <th>
+            RemainedQuantity
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Picture
+        </th>
+        <th>
+            CompanyName
+        </th>
+        <th>
+            CatID
+        </th>
+        <th>
+            LastEdit By
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UploadDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RemainedQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <img src="~/Content/Products-Pictures/@item.Picture" style="width:100px;height:100px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CatID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppUser.UserName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { onclick = "return confirm('Are you sure you wish to delete this Product?');" })
+            </td>
+        </tr>
+    }
+</table>
+<br />
+<div style="text-align:center">
+    page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page }))
+</div>

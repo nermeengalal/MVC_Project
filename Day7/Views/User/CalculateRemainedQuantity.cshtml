@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Day7.Models.CurrentOrderDetails>
+
+@{
+    ViewBag.Title = "CalculateRemainedQuantity";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="text-align:center;margin-top:2%;color:#dddddd;font-family:Script MT Bold;font-size:30px">Thanks for your Shopping</h2>
+
+<br /><br />
+
+<table class="table table-active ">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderId)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().OrderId)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().Date)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().UserName)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().Address)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().PhoneNumber)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().TotalPrice)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Payment)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.FirstOrDefault().Payment)
+        </td>
+    </tr>
+</table>
+<br />
+<br />
+<table class="table table-borderless table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductQuantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+        </tr>
+    }
+</table>
+

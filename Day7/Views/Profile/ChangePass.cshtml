@@ -1,0 +1,48 @@
+﻿@model Day7.Models.RegistrationViewModel
+
+@{
+    ViewBag.Title = "ChangePass";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>ChangePass</h2>
+
+
+
+<div class="form-horizontal">
+    <div class="form-group">
+        @Html.Label("Old Password", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control compare" } })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+        </div>
+    </div>
+</div>
+@if (Model.Password == ViewBag.pass)
+{
+    using (Html.BeginForm("EditPass", "Profile"))
+    {
+        <div class="form-group ">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Check" class=" btn btn-default " />
+            </div>
+        </div>
+    }
+}
+
+
+<div>
+    @Html.ActionLink("Back", "GetUserForEditing", null, new { @class = "btn btn-primary btn-sm" })
+</div>
+@*<script>
+
+$(document).ready(function () {
+    $(".compare").change(function {
+        if ($(".compare").val() == @ViewBag.pass) {
+            $("input:submit").show()
+        }
+        else { $("input:submit").hide() }
+    });
+});
+</script>*@
+

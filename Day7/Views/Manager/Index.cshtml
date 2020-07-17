@@ -1,0 +1,61 @@
+﻿@model Dictionary<string, string>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+<h2 style="text-align:center;margin-top:5%;color:#dddddd">Employees List</h2>
+
+
+
+<form method="get" action="\Manager\Employees">
+    <input type="search" class="form-control" style="width:300px" placeholder="Search" name="Emp" value="@ViewBag.EmpName"/>
+</form>
+
+<p>
+    @Html.ActionLink("Register New Employee", "Registration",null,new { @class="btn btn-primary btn-sm" ,style="text-align:center"})
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayName("User Name")
+        </th>
+        <th>
+            @Html.DisplayName("Role")
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Key)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Value)
+            </td>
+
+            @if (item.Value == "Admin")
+            {
+                <td>
+
+                    @Html.ActionLink("Delete", "Delete",
+                             new { id = ViewBag.Ids[i] },
+                             new { onclick = "return confirm('Are you sure you wish to delete this Employee?');" })
+                </td>
+            }
+            else
+            {
+                <td></td>
+            }
+        </tr>
+        i++;
+    }
+
+</table>

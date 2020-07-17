@@ -1,0 +1,117 @@
+﻿@model Day7.Models.ProductViewModel
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+    List<int> num = new List<int>();
+    for (int i = 1; i <= Model.RemainedQuantity; i++)
+    {
+        num.Add(i);
+    }
+    SelectList PurchaseQuantity = new SelectList(num, num);
+}
+
+
+
+
+<div>
+
+    @using (Html.BeginForm("card", "User", new { id = Model.ID }))
+    {
+        <dl class="dl-horizontal">
+            <dd style="text-align:center">
+                <img src="~/Content/Products-Pictures/@Model.Picture" style="width:25%;height:15%;margin-top:5%;text-align:center" />
+            </dd>
+            <dd>
+                <h2 style="text-align:center;margin-top:5%;color:#dddddd;font-weight:bold">@Html.DisplayFor(model => model.Name)</h2>
+            </dd>
+        </dl>
+        <table class="table table-active">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Description)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CompanyName)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.CompanyName)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UploadDate)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.UploadDate)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Price)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.RemainedQuantity)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.RemainedQuantity)
+                </td>
+            </tr>
+        </table>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.QuantityNeeded, htmlAttributes: new { @class = "control-label col-md-2", style = "font-weight:bold" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.QuantityNeeded, PurchaseQuantity, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.QuantityNeeded, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        if (User.Identity.IsAuthenticated && Model.RemainedQuantity != 0)
+        {
+            <input type="submit" value="Add to card" class="btn btn-primary btn-sm" />
+            //@Html.ActionLink("Add to Card", "card", "User", new { id = Model.ID }, new { @class = "btn btn-primary btn-sm" });
+        }
+        else if (!User.Identity.IsAuthenticated || Model.RemainedQuantity != 0)
+        {
+            @Html.ActionLink("Add to Card", "card", "User", new { id = Model.ID }, new { @class = "btn btn-secondary btn-sm link" });
+            <label class="text-danger" id="lab"></label>
+        }
+        else if (Model.RemainedQuantity == 0)
+        {
+            <label class="text-danger" id="labb"></label>
+            <br />
+            @Html.ActionLink("Add to Card", "Index", "User", new { id = Model.ID }, new { @class = "btn btn-secondary btn-sm linkk" });
+        }
+    }
+
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary btn-sm" })
+</p>
+<script>
+    $(document).ready(function () {
+        $(".link").click(function (event) {
+            event.preventDefault();
+            $("#lab").text("You need to Login First to Add to card");
+        });
+    });
+    $(document).ready(function () {
+        $(".linkk").click(function (event) {
+            event.preventDefault();
+            $("#labb").text("Out of Stock");
+        });
+    });
+</script>
+
+
+

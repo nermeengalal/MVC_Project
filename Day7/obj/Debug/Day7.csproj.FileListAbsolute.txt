@@ -1,0 +1,311 @@
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Day7.dll.config
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Day7.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Day7.pdb
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\csc.exe
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\csc.exe.config
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\csc.rsp
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\csi.exe
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\csi.exe.config
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\csi.rsp
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.AppContext.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Console.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.Compression.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Net.Http.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Net.Sockets.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.ValueTuple.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\vbc.exe
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\vbc.exe.config
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\vbc.rsp
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\VBCSCompiler.exe
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Antlr3.Runtime.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\EntityFramework.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\EntityFramework.SqlServer.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Newtonsoft.Json.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Owin.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Helpers.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Mvc.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Optimization.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Razor.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Razor.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\WebGrease.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\EntityFramework.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\EntityFramework.SqlServer.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Helpers.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Mvc.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Optimization.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.Razor.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Razor.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Newtonsoft.Json.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Antlr3.Runtime.pdb
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\obj\Debug\Day7.csprojAssemblyReference.cache
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\obj\Debug\Day7.Migrations.step1.resources
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\obj\Debug\Day7.csproj.GenerateResource.cache
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\obj\Debug\Day7.csproj.CopyComplete
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\obj\Debug\Day7.dll
+C:\Users\chris\Desktop\MVC 3 Month\Day7\IdentityDemo\Day7\Day7\obj\Debug\Day7.pdb
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Day7.dll.config
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Day7.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Day7.pdb
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\csc.exe
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\csc.exe.config
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\csc.rsp
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\csi.exe
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\csi.exe.config
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\csi.rsp
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.AppContext.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Collections.Immutable.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Console.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Globalization.Calendars.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.Compression.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.FileSystem.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Net.Http.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Net.Sockets.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Reflection.Metadata.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.ValueTuple.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.XPath.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\vbc.exe
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\vbc.exe.config
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\vbc.rsp
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\VBCSCompiler.exe
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\roslyn\VBCSCompiler.exe.config
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Antlr3.Runtime.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\EntityFramework.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\EntityFramework.SqlServer.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Web.Infrastructure.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Newtonsoft.Json.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Owin.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Helpers.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Mvc.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Optimization.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Razor.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Deployment.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Razor.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\WebGrease.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\EntityFramework.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\EntityFramework.SqlServer.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Helpers.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Mvc.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Optimization.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.Razor.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Deployment.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\System.Web.WebPages.Razor.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Newtonsoft.Json.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Antlr3.Runtime.pdb
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.csprojAssemblyReference.cache
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.Migrations.step1.resources
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.csproj.GenerateResource.cache
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.csproj.CoreCompileInputs.cache
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.csproj.CopyComplete
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.dll
+D:\ITI\Day7-MVC(FILTER,iDENTITY)\IdentityDemo\Day7\Day7\obj\Debug\Day7.pdb
+D:\ITI\MVC Project\Day7\Day7\bin\Day7.dll.config
+D:\ITI\MVC Project\Day7\Day7\bin\Day7.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Day7.pdb
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\csc.exe
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\csc.exe.config
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\csc.rsp
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\csi.exe
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\csi.exe.config
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\csi.rsp
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.AppContext.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Collections.Immutable.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Console.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Globalization.Calendars.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.IO.Compression.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.IO.FileSystem.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Net.Http.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Net.Sockets.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Reflection.Metadata.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.ValueTuple.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Xml.XPath.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\vbc.exe
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\vbc.exe.config
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\vbc.rsp
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\VBCSCompiler.exe
+D:\ITI\MVC Project\Day7\Day7\bin\roslyn\VBCSCompiler.exe.config
+D:\ITI\MVC Project\Day7\Day7\bin\Antlr3.Runtime.dll
+D:\ITI\MVC Project\Day7\Day7\bin\EntityFramework.dll
+D:\ITI\MVC Project\Day7\Day7\bin\EntityFramework.SqlServer.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Security.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Web.Infrastructure.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Newtonsoft.Json.dll
+D:\ITI\MVC Project\Day7\Day7\bin\Owin.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Helpers.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Mvc.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Optimization.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Razor.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.WebPages.Deployment.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.WebPages.dll
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.WebPages.Razor.dll
+D:\ITI\MVC Project\Day7\Day7\bin\WebGrease.dll
+D:\ITI\MVC Project\Day7\Day7\bin\EntityFramework.xml
+D:\ITI\MVC Project\Day7\Day7\bin\EntityFramework.SqlServer.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Security.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Helpers.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Mvc.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Optimization.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.Razor.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.WebPages.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.WebPages.Deployment.xml
+D:\ITI\MVC Project\Day7\Day7\bin\System.Web.WebPages.Razor.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Newtonsoft.Json.xml
+D:\ITI\MVC Project\Day7\Day7\bin\Antlr3.Runtime.pdb
+D:\ITI\MVC Project\Day7\Day7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.csprojAssemblyReference.cache
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.Migrations.step1.resources
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.csproj.GenerateResource.cache
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.csproj.CoreCompileInputs.cache
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.csproj.CopyComplete
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.dll
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.pdb
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.Migrations.step2.resources
+D:\ITI\MVC Project\Day7\Day7\bin\PagedList.dll
+D:\ITI\MVC Project\Day7\Day7\bin\PagedList.Mvc.dll
+D:\ITI\MVC Project\Day7\Day7\bin\PagedList.xml
+D:\ITI\MVC Project\Day7\Day7\bin\PagedList.Mvc.xml
+D:\ITI\MVC Project\Day7\Day7\obj\Debug\Day7.Migrations.step3.resources

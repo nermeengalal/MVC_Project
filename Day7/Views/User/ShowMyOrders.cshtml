@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Day7.Models.Card>
+
+@{
+    ViewBag.Title = "ShowMyOrders";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+<h2 style="text-align:center;margin-top:5%;color:#dddddd">MyOrders</h2>
+
+<table class="table table-borderless table-hover" >
+    <tr style="text-align:center">
+        <th>
+            @Html.DisplayNameFor(model => model.OrderID)
+        </th>
+        <th>
+            @Html.DisplayName("Date")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayName("Total Price")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr style="text-align:center">
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderID)
+        </td>
+        <td>
+            <label>@ViewBag.date[i]</label>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PriceOfEachProduct)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "OrderDetail", new { id = item.ID },new { @class="btn btn-secondary btn-sm"}) 
+        </td>
+    </tr>
+    i++;
+}
+
+</table>

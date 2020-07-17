@@ -1,0 +1,34 @@
+﻿@model PagedList.IPagedList<Day7.Models.Product>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<div style="display:flex">
+    @foreach (var item in Model)
+    {
+
+        <div class="card" style="width: 18rem ;background-color:#f9f9f9;margin-left:5%">
+            <img src="~/Content/Products-Pictures/@item.Picture" class="card-img-top" alt="" style="width:100%;height:50%;margin-top:5%">
+            <div class="card-body">
+                <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Name) </h5>
+                <p class="card-text"> @Html.DisplayFor(modelItem => item.Description)</p>
+                <p class="card-text">Price:  @Html.DisplayFor(modelItem => item.Price)</p>
+                @Html.ActionLink("Details", "Details", "Home", new { id = item.ID }, new { @class = "btn btn-primary btn-sm" })
+            </div>
+
+        </div>
+    }
+
+</div>
+
+<br />
+<div style="text-align:center">
+    page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page }))
+
+</div>
+
